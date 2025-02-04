@@ -1,5 +1,5 @@
 James S. Graydon
-[](https://github.com/jsgraydon/jsgraydon.github.io/blob/main/Profile_Headshot_JSG_2.jpg?raw=true)
+[!](https://github.com/jsgraydon/jsgraydon.github.io/blob/main/Profile_Headshot_JSG_2.jpg?raw=true)
 =====
 
 ## About me
