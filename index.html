@@ -1,51 +1,157 @@
+
+HTML
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>James S. Graydon</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            padding: 20px;
-            max-width: 800px;
-            margin: auto;
-        }
-        h1, h2 {
-            color: #333;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      color: #333;
+    }
+    header {
+      background: #0078D7; /* Professional blue */
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin: 0.5rem 0 0;
+    }
+    nav {
+      text-align: center;
+      margin: 1rem 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-size: 1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .skills, .projects {
+      margin-bottom: 2rem;
+    }
+    .skills ul, .projects ul {
+      list-style: none;
+      padding: 0;
+    }
+    .skills li, .projects li {
+      background: #f4f4f4;
+      margin: 0.5rem 0;
+      padding: 0.5rem;
+      border-radius: 5px;
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: 2rem;
+    }
+    footer a {
+      color: #0078D7;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    .btn {
+      display: inline-block;
+      background: #0078D7;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 1rem;
+    }
+    .btn:hover {
+      background: #005bb5;
+    }
+  </style>
 </head>
 <body>
-    <h1>James S. Graydon</h1>
+  <!-- Header Section -->
+  <header>
+    <h1>Your Name</h1>
+    <p>Software Developer | Open Source Contributor | Tech Enthusiast</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
+  <!-- About Section -->
+  <section id="about">
     <h2>About Me</h2>
-    <p>I am a scientist in rare-disease pharma and a Master's student at Columbia.</p>
+    <p>
+      Hello! I'm a passionate software developer with experience in building web applications, contributing to open source, and solving complex problems. I love learning new technologies and collaborating on exciting projects.
+    </p>
+    <a href="https://github.com/yourusername" class="btn">View My GitHub</a>
+  </section>
 
-    <h2>Experience</h2>
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
     <ul>
-        <li><strong>Alexion, AstraZeneca Rare Disease Unit</strong> (2018 – present)</li>
-        <li><strong>Syntimmune, Inc.</strong> (2017 – 2018)</li>
-        <li><strong>Genomas, Inc.</strong> (2015 – 2017)</li>
+      <li>JavaScript (React, Node.js)</li>
+      <li>Python (Django, Flask)</li>
+      <li>HTML & CSS (Responsive Design, Bootstrap)</li>
+      <li>Version Control (Git, GitHub)</li>
+      <li>Database Management (MySQL, MongoDB)</li>
     </ul>
+  </section>
 
-    <h2>Expertise</h2>
-    <li>R-based data analysis</li>
-      <ul>
-        <ul>
-            <li>tidyverse</li>
-            <li>Clinical data analysis</li>
-            <li>Data visualization</li>
-            <li>R Markdown</li>
-        </ul>
-      </ul>
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <strong>Project 1:</strong> <a href="https://github.com/yourusername/project1" target="_blank">Awesome Web App</a> - A responsive web app built with React and Node.js.
+      </li>
+      <li>
+        <strong>Project 2:</strong> <a href="https://github.com/yourusername/project2" target="_blank">Data Analysis Tool</a> - A Python-based tool for analyzing and visualizing data.
+      </li>
+      <li>
+        <strong>Project 3:</strong> <a href="https://github.com/yourusername/project3" target="_blank">Portfolio Website</a> - My personal portfolio built with HTML, CSS, and JavaScript.
+      </li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Feel free to reach out to me for collaborations or just to say hi!</p>
+    <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Your Name. Built with ❤️ and GitHub Pages.</p>
+    <p><a href="https://github.com/yourusername">GitHub Profile</a></p>
+  </footer>
 </body>
 </html>
