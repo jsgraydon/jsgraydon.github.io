@@ -11,10 +11,10 @@ I am a scientist in rare-disease pharma and a Master's student at Columbia.
 
 ## Expertise
 * R-based data analysis  
-..* tidyverse  
-..* Clinical data analysis  
-..* Data visualization  
-..* R Markdown   
+  - tidyverse  
+  - Clinical data analysis  
+  - Data visualization  
+  - R Markdown   
 * NONMEM
 * pyDarwin-based ML
 * Clinical trial design and execution
